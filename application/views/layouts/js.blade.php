@@ -15,8 +15,7 @@
 <script src="{{ base_url('assets/js/module/nanobar.min.js') }}" defer></script>
 <script src="{{ base_url('assets/js/module/jquery.validate.min.js') }}" defer></script>
 <script src="{{ base_url('assets/js/module/additional-methods.min.js') }}" defer></script>
-{{-- <script src="http://socket.xyrus10.com/socket.io/socket.io.js" defer></script> --}}
-<script src="http://localhost:6996/socket.io/socket.io.js" defer></script>
+<script src="https://ipdn-socket.herokuapp.com/socket.io/socket.io.js" defer></script>
 <script src="{{ base_url('assets/js/app.js') }}" defer></script>
 <div id="customJsNa">
 @yield('js')
