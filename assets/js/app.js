@@ -7,7 +7,7 @@ var table, table1, CURRENT_PATH, refreshTableInterval;
 
 var socket = []
 
-// socket = io.connect(`https://ipdn-socket.herokuapp.com`)
+// socket = io.connect(`https://socket.xyrus10.com`)
 socket = io.connect(`https://ipdn-socket.herokuapp.com`)
 
 moment.locale('id');

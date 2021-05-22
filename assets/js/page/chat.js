@@ -54,6 +54,8 @@ socket.on("getMessage", param => {
             </div>
         `)   
     } else {
+        var audio = new Audio('https://cdn.discordapp.com/attachments/752130537455484999/845340018549325824/juntos-607.mp3');
+        audio.play();
         chatField.append(`
             <div class="row">
                 <div class="col-auto mr-auto pesan">
